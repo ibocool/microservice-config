@@ -1,0 +1,12 @@
+spring: 
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+name: apadev
+---
+spring:
+  profiles: test
+name: apatest
